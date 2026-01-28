@@ -1,11 +1,10 @@
-import React from "react";
 import BaseClock from "../BaseClock";
 
 export default class MirrorClock extends BaseClock {
-    public canShowTime(time: Date): boolean {
-        return true
+    public canShowTime(): boolean {
+        return true;
     }
-    public render(time: Date): React.ReactElement {
+    public render(time: Date) {
         const style = {
             MozTransform: "scale(-1, 1)",
             WebkitTransform: "scale(-1, 1)",
