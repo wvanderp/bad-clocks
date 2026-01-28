@@ -10,12 +10,6 @@ export default tseslint.config(
     {
         files: ["src/**/*.{ts,tsx,js,jsx}"],
         ignores: ["dist", "gitBuild", ".vite", "node_modules"],
-        languageOptions: {
-            parserOptions: {
-                project: ["./tsconfig.json"],
-                sourceType: "module"
-            }
-        },
         plugins: {
             react,
             "react-hooks": reactHooks,

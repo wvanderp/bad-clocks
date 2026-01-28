@@ -33,8 +33,7 @@
   "dependencies": {
     "bootstrap": "^5.3.8",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "reactstrap": "^9.2.3"
+    "react-dom": "^19.0.0"
   },
   "scripts": {
     "dev": "vite",
