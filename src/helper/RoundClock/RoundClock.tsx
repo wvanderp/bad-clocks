@@ -1,4 +1,3 @@
-import React from "react";
 import "./RoundClock.css";
 
 export default function RoundClock(props: {hourAngle: number, minuteAngle: number, secondAngle: number}) {
